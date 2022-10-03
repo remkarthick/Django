@@ -104,3 +104,9 @@
 > 
 > (LearnDjango-u7fHf1rZ) C:\KK\learn\python\LearnDjango>cd ecomm
 > (LearnDjango-u7fHf1rZ) C:\KK\learn\python\LearnDjango\ecomm>python manage.py runserver
+
+
+13. Accessing the application
+
+    http://127.0.0.1:8000/
+
