@@ -63,8 +63,25 @@
    
 9. Install django inside the Virtual Environment
 
-    pipenv --venv
+    pipenv install Django==3.0.
+    
+> Example :
+> 
+>  (LearnDjango-u7fHf1rZ) C:\KK\learn\python\LearnDjango>pipenv install Django==3.0.8 
+> Installing Django==3.0.8... Adding Django to Pipfile's
+> [packages]... Installation Succeeded Pipfile.lock not found,
+> creating... Locking [packages] dependencies...
+>            Building requirements... Resolving dependencies... Success! Locking [dev-packages] dependencies... Updated Pipfile.lock (13ff3d)!
+> Installing dependencies from Pipfile.lock (13ff3d)...
 
+10. Check if Django is installed in the Virtual Environment
 
+    pip freeze
 
-
+> Example :
+> 
+> (LearnDjango-u7fHf1rZ) C:\KK\learn\python\LearnDjango>pip freeze
+> asgiref==3.5.2
+> Django==3.0.8
+> pytz==2022.4
+> sqlparse==0.4.3
