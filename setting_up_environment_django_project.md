@@ -85,3 +85,22 @@
 > Django==3.0.8
 > pytz==2022.4
 > sqlparse==0.4.3
+
+11. Create a new Django project
+    
+    django-admin startproject ecomm
+
+> Example :
+> 
+> (LearnDjango-u7fHf1rZ) C:\KK\learn\python\LearnDjango>django-admin startproject ecomm
+> (LearnDjango-u7fHf1rZ) C:\KK\learn\python\LearnDjango>
+
+
+12. Run the Django Project
+
+    python manage.py runserver
+
+> Example :
+> 
+> (LearnDjango-u7fHf1rZ) C:\KK\learn\python\LearnDjango>cd ecomm
+> (LearnDjango-u7fHf1rZ) C:\KK\learn\python\LearnDjango\ecomm>python manage.py runserver
